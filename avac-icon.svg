@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <!-- Red background square -->
+  <rect width="60" height="60" fill="#E1261C"/>
+
+  <!-- White geometric triangular mosaic pattern — 3×3 grid, each cell 20×20 -->
+  <!-- Row 1, Col 1 (0-20, 0-20): upper-left white triangle -->
+  <polygon points="0,0 20,0 0,20" fill="white"/>
+  <!-- Row 1, Col 2 (20-40, 0-20): upper center white triangle pointing down -->
+  <polygon points="20,0 40,0 30,20" fill="white"/>
+  <!-- Row 1, Col 3 (40-60, 0-20): upper-right white triangle -->
+  <polygon points="40,0 60,0 60,20" fill="white"/>
+
+  <!-- Row 2, Col 1 (0-20, 20-40): left-pointing white triangle -->
+  <polygon points="0,20 20,30 0,40" fill="white"/>
+  <!-- Row 2, Col 2 (20-40, 20-40): center white diamond -->
+  <polygon points="30,20 40,30 30,40 20,30" fill="white"/>
+  <!-- Row 2, Col 3 (40-60, 20-40): right-pointing white triangle -->
+  <polygon points="60,20 60,40 40,30" fill="white"/>
+
+  <!-- Row 3, Col 1 (0-20, 40-60): lower-left white triangle -->
+  <polygon points="0,40 0,60 20,60" fill="white"/>
+  <!-- Row 3, Col 2 (20-40, 40-60): lower center white triangle pointing up -->
+  <polygon points="20,60 40,60 30,40" fill="white"/>
+  <!-- Row 3, Col 3 (40-60, 40-60): lower-right white triangle -->
+  <polygon points="40,60 60,60 60,40" fill="white"/>
+</svg>
