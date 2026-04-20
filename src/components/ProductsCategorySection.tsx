@@ -17,15 +17,15 @@ function BrandMiniIcon() {
       className="shrink-0"
     >
       <rect width="60" height="60" fill="#E1261C" />
-      <polygon points="0,0 20,0 0,20"      fill="white" />
-      <polygon points="20,0 40,0 30,20"    fill="white" />
-      <polygon points="40,0 60,0 60,20"    fill="white" />
-      <polygon points="0,20 20,30 0,40"    fill="white" />
+      <polygon points="0,0 20,0 0,20" fill="white" />
+      <polygon points="20,0 40,0 30,20" fill="white" />
+      <polygon points="40,0 60,0 60,20" fill="white" />
+      <polygon points="0,20 20,30 0,40" fill="white" />
       <polygon points="30,20 40,30 30,40 20,30" fill="white" />
-      <polygon points="60,20 60,40 40,30"  fill="white" />
-      <polygon points="0,40 0,60 20,60"    fill="white" />
-      <polygon points="20,60 40,60 30,40"  fill="white" />
-      <polygon points="40,60 60,60 60,40"  fill="white" />
+      <polygon points="60,20 60,40 40,30" fill="white" />
+      <polygon points="0,40 0,60 20,60" fill="white" />
+      <polygon points="20,60 40,60 30,40" fill="white" />
+      <polygon points="40,60 60,60 60,40" fill="white" />
     </svg>
   );
 }
@@ -97,7 +97,7 @@ export function ProductsCategorySection() {
             {/* 2. Forklift image below text */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/products-forklift.png"
+                src="/avac-horizons/products-forklift.png"
                 alt="Yellow Hyster forklift operating inside industrial warehouse"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 280 }}
@@ -110,7 +110,7 @@ export function ProductsCategorySection() {
             {/* 1. Chemical worker image on top */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/products-chemical-worker.png"
+                src="/avac-horizons/products-chemical-worker.png"
                 alt="Industrial worker in full PPE handling chemical containers in warehouse"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 280 }}

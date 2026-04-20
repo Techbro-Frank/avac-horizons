@@ -102,7 +102,7 @@ export function LogisticsSupplySection() {
             style={{ borderRadius: 0 }}
           >
             <img
-              src="/svc-logistics-truck.png"
+              src="/avac-horizons/svc-logistics-truck.png"
               alt="Long-haul truck driving on open highway — logistics and supply chain"
               className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               style={{ minHeight: 340 }}

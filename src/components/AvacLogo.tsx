@@ -17,7 +17,7 @@ export function AvacLogo({
   return (
     <span className={`inline-flex items-center ${className}`}>
       <img
-        src="/logo.png"
+        src="/avac-horizons/logo.png"
         alt="AVAC Horizons — General Trading FZCO"
         style={{ height: iconSize, width: "auto", display: "block", objectFit: "contain" }}
         draggable={false}

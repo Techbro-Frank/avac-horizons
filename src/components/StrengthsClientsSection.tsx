@@ -33,9 +33,9 @@ const ChiyodaLogo = () => (
   <svg viewBox="0 0 220 65" xmlns="http://www.w3.org/2000/svg" aria-label="Chiyoda Corporation">
     {/* Blue triangle */}
     <polygon points="6,52 34,6 62,52" fill="none" stroke="#1B3B7B" strokeWidth="3.5" />
-    <line x1="6" y1="52" x2="62" y2="52" stroke="#1B3B7B" strokeWidth="3.5"/>
+    <line x1="6" y1="52" x2="62" y2="52" stroke="#1B3B7B" strokeWidth="3.5" />
     {/* Divider line inside */}
-    <line x1="21" y1="38" x2="47" y2="38" stroke="#1B3B7B" strokeWidth="2"/>
+    <line x1="21" y1="38" x2="47" y2="38" stroke="#1B3B7B" strokeWidth="2" />
     <text x="130" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="13.5" fontWeight="800" fill="#1B3B7B" letterSpacing="1.5">CHIYODA</text>
     <text x="130" y="46" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="10.5" fontWeight="600" fill="#1B3B7B" letterSpacing="1">CORPORATION</text>
   </svg>
@@ -66,9 +66,9 @@ const TELogo = () => (
 const SaipemLogo = () => (
   <svg viewBox="0 0 200 75" xmlns="http://www.w3.org/2000/svg" aria-label="Saipem">
     {/* S bracket — teal */}
-    <rect x="8" y="6" width="46" height="46" rx="2" fill="none" stroke="#007B8A" strokeWidth="3"/>
-    <rect x="8" y="6" width="25" height="25" rx="1" fill="#007B8A"/>
-    <rect x="29" y="27" width="25" height="25" rx="1" fill="#E05C1A"/>
+    <rect x="8" y="6" width="46" height="46" rx="2" fill="none" stroke="#007B8A" strokeWidth="3" />
+    <rect x="8" y="6" width="25" height="25" rx="1" fill="#007B8A" />
+    <rect x="29" y="27" width="25" height="25" rx="1" fill="#E05C1A" />
     <text x="120" y="35" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="22" fontWeight="800" fill="#1a1a1a" letterSpacing="2">SAIPEM</text>
   </svg>
 );
@@ -91,13 +91,13 @@ const STRENGTHS_COLS = [
 ];
 
 const CLIENTS = [
-  { name: "McDermott",          Logo: McDermottLogo },
-  { name: "Daewoo E&C",         Logo: DaewooLogo    },
-  { name: "Renco",              Logo: RencoLogo     },
-  { name: "Chiyoda Corporation",Logo: ChiyodaLogo   },
-  { name: "eGBIN",              Logo: EgbinLogo     },
-  { name: "TotalEnergies",      Logo: TELogo        },
-  { name: "Saipem",             Logo: SaipemLogo    },
+  { name: "McDermott", Logo: McDermottLogo },
+  { name: "Daewoo E&C", Logo: DaewooLogo },
+  { name: "Renco", Logo: RencoLogo },
+  { name: "Chiyoda Corporation", Logo: ChiyodaLogo },
+  { name: "eGBIN", Logo: EgbinLogo },
+  { name: "TotalEnergies", Logo: TELogo },
+  { name: "Saipem", Logo: SaipemLogo },
 ];
 
 /* ── Small corner triangle decoration ── */
@@ -109,7 +109,7 @@ function TriangleCorner({ position = "tl" }: { position?: "tl" | "br" }) {
   return (
     <div className={cls} style={{ width: 120, height: 120 }} aria-hidden="true">
       <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="0,0 60,0 60,60"  fill="#E1261C" />
+        <polygon points="0,0 60,0 60,60" fill="#E1261C" />
         <polygon points="60,0 120,0 60,60" fill="none" stroke="#E1261C" strokeWidth="3" />
         <polygon points="0,60 60,60 0,120" fill="none" stroke="#E1261C" strokeWidth="3" />
         <polygon points="60,60 120,60 120,120" fill="#E1261C" />
@@ -235,7 +235,7 @@ export function StrengthsClientsSection() {
             style={{ width: 280, height: 280 }}
           >
             <img
-              src="/teamwork-hands.png"
+              src="/avac-horizons/teamwork-hands.png"
               alt="Teamwork and partnership — joined hands representing AVAC Horizons team"
               className="w-full h-full object-cover object-center"
             />

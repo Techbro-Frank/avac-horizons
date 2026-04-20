@@ -175,7 +175,7 @@ export function ProjectsPage() {
         {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="/projects-hero.png"
+            src="/avac-horizons/projects-hero.png"
             alt="Industrial project site at dusk"
             className="w-full h-full object-cover object-center"
           />

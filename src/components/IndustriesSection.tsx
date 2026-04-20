@@ -118,9 +118,9 @@ const INDUSTRIES = [
 
 /* ─── Thumbnails ─── */
 const THUMBS = [
-  { src: "/ind-thumb-1.png", alt: "Aerial view of oil refinery and storage tanks" },
-  { src: "/ind-thumb-2.png", alt: "Offshore wind farm" },
-  { src: "/ind-thumb-3.png", alt: "Industrial plant at night" },
+  { src: "/avac-horizons/ind-thumb-1.png", alt: "Aerial view of oil refinery and storage tanks" },
+  { src: "/avac-horizons/ind-thumb-2.png", alt: "Offshore wind farm" },
+  { src: "/avac-horizons/ind-thumb-3.png", alt: "Industrial plant at night" },
 ];
 
 /* ─── Reveal hook ─── */
@@ -160,7 +160,7 @@ export function IndustriesSection() {
         <div className="relative w-full lg:w-1/2 overflow-hidden min-h-[340px] lg:min-h-full">
           {/* Main image */}
           <img
-            src="/ind-rig.png"
+            src="/avac-horizons/ind-rig.png"
             alt="Offshore oil drilling platform representing Marine & Offshore industry"
             className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-[6000ms] ease-out"
             style={{ transform: visible ? "scale(1.04)" : "scale(1)" }}

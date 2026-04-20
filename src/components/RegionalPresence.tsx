@@ -16,7 +16,7 @@ const HIGHLIGHTED: Record<string, string> = {
   "784": "United Arab Emirates",
   "634": "Qatar",
   "414": "Kuwait",
-  "48":  "Bahrain",
+  "48": "Bahrain",
   "512": "Oman",
   "400": "Jordan",
   "760": "Syria",
@@ -65,21 +65,21 @@ const HIGHLIGHTED: Record<string, string> = {
   "710": "South Africa",
   "716": "Zimbabwe",
   "894": "Zambia",
-  "72":  "Botswana",
+  "72": "Botswana",
   "516": "Namibia",
-  "24":  "Angola",
+  "24": "Angola",
   "454": "Malawi",
   "426": "Lesotho",
   "748": "Eswatini",
   "508": "Mozambique",
 };
 
-const RED      = "#E1261C";
-const RED_HOV  = "#c41f17";
-const GRAY     = "#D1D5DB";
+const RED = "#E1261C";
+const RED_HOV = "#c41f17";
+const GRAY = "#D1D5DB";
 const GRAY_HOV = "#B8BFC9";
-const STROKE   = "#FFFFFF";
-const NAVY     = "#0B1F2A";
+const STROKE = "#FFFFFF";
+const NAVY = "#0B1F2A";
 
 /* ── SVG viewport ── */
 const W = 800;
@@ -96,13 +96,13 @@ function CornerDecoration() {
       <svg viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
         {/* 2×3 grid of triangular cells (54×36 each) */}
         {/* Row 1 */}
-        <polygon points="0,0 54,0 54,36"     fill={RED} />
-        <polygon points="54,0 108,0 54,36"   fill="none" stroke={RED} strokeWidth="3" />
+        <polygon points="0,0 54,0 54,36" fill={RED} />
+        <polygon points="54,0 108,0 54,36" fill="none" stroke={RED} strokeWidth="3" />
         {/* Row 2 */}
-        <polygon points="0,36 54,36 0,72"    fill="none" stroke={RED} strokeWidth="3" />
+        <polygon points="0,36 54,36 0,72" fill="none" stroke={RED} strokeWidth="3" />
         <polygon points="54,36 108,36 108,72" fill={RED} />
         {/* Row 3 */}
-        <polygon points="0,72 54,72 54,108"  fill={RED} />
+        <polygon points="0,72 54,72 54,108" fill={RED} />
         <polygon points="54,72 108,72 108,108" fill={RED} opacity="0.4" />
       </svg>
     </div>
@@ -164,7 +164,7 @@ export function RegionalPresence() {
 
   /* ── Load topojson once ── */
   useEffect(() => {
-    fetch("/world-110m.json")
+    fetch(`${import.meta.env.BASE_URL}world-110m.json`)
       .then((r) => r.json())
       .then((topology: Topology) => {
         const countriesGeom = topology.objects["countries"] as GeometryCollection;

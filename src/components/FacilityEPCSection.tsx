@@ -76,7 +76,7 @@ export function FacilityEPCSection() {
             {/* Facility image */}
             <div className="overflow-hidden rounded-sm">
               <img
-                src="/svc-facility-machinery.png"
+                src="/avac-horizons/svc-facility-machinery.png"
                 alt="Close-up of industrial machinery gears and mechanical components"
                 className="w-full aspect-[4/3] object-cover object-center hover:scale-105 transition-transform duration-500"
               />
@@ -118,7 +118,7 @@ export function FacilityEPCSection() {
             {/* EPC image */}
             <div className="overflow-hidden rounded-sm mb-5">
               <img
-                src="/svc-epc-worker.png"
+                src="/avac-horizons/svc-epc-worker.png"
                 alt="Construction engineer with clipboard on industrial site"
                 className="w-full aspect-[4/3] object-cover object-center hover:scale-105 transition-transform duration-500"
               />

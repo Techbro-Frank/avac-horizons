@@ -31,15 +31,15 @@ function BrandMiniIcon() {
       className="shrink-0"
     >
       <rect width="60" height="60" fill="#E1261C" />
-      <polygon points="0,0 20,0 0,20"      fill="white" />
-      <polygon points="20,0 40,0 30,20"    fill="white" />
-      <polygon points="40,0 60,0 60,20"    fill="white" />
-      <polygon points="0,20 20,30 0,40"    fill="white" />
+      <polygon points="0,0 20,0 0,20" fill="white" />
+      <polygon points="20,0 40,0 30,20" fill="white" />
+      <polygon points="40,0 60,0 60,20" fill="white" />
+      <polygon points="0,20 20,30 0,40" fill="white" />
       <polygon points="30,20 40,30 30,40 20,30" fill="white" />
-      <polygon points="60,20 60,40 40,30"  fill="white" />
-      <polygon points="0,40 0,60 20,60"    fill="white" />
-      <polygon points="20,60 40,60 30,40"  fill="white" />
-      <polygon points="40,60 60,60 60,40"  fill="white" />
+      <polygon points="60,20 60,40 40,30" fill="white" />
+      <polygon points="0,40 0,60 20,60" fill="white" />
+      <polygon points="20,60 40,60 30,40" fill="white" />
+      <polygon points="40,60 60,60 60,40" fill="white" />
     </svg>
   );
 }
@@ -83,7 +83,7 @@ export function ProductsPage() {
         {/* RIGHT — Port / crane image */}
         <div className="overflow-hidden hidden md:block">
           <img
-            src="/products-port-hero.png"
+            src="/avac-horizons/products-port-hero.png"
             alt="Industrial seaport with cranes and cargo containers"
             className="w-full h-full object-cover object-center"
           />
@@ -110,7 +110,7 @@ export function ProductsPage() {
             {/* Supporting image — global supply chain / industrial warehouse */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/products-supply-chain.png"
+                src="/avac-horizons/products-supply-chain.png"
                 alt="Industrial warehouse team reviewing procurement inventory and supply chain operations"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 280 }}
@@ -164,7 +164,7 @@ export function ProductsPage() {
             {/* Machinery image below bullets */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/products-machinery.png"
+                src="/avac-horizons/products-machinery.png"
                 alt="Complex industrial machinery — piping, valves and pressure vessels"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 260 }}

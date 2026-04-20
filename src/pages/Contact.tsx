@@ -164,7 +164,7 @@ export function ContactPage() {
       {/* ── Full-width background image ── */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/contact-dubai-bg.png"
+          src="/avac-horizons/contact-dubai-bg.png"
           alt="Dubai Museum of the Future skyline"
           className="w-full h-full object-cover object-center"
         />

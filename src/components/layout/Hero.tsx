@@ -36,7 +36,7 @@ export function Hero() {
       {/* Photo — full bleed, fades left on desktop */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-industrial.png"
+          src="/avac-horizons/hero-industrial.png"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover object-center transition-transform duration-[12000ms] ease-out"

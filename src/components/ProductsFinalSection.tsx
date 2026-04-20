@@ -22,15 +22,15 @@ function BrandMiniIcon() {
       className="shrink-0"
     >
       <rect width="60" height="60" fill="#E1261C" />
-      <polygon points="0,0 20,0 0,20"      fill="white" />
-      <polygon points="20,0 40,0 30,20"    fill="white" />
-      <polygon points="40,0 60,0 60,20"    fill="white" />
-      <polygon points="0,20 20,30 0,40"    fill="white" />
+      <polygon points="0,0 20,0 0,20" fill="white" />
+      <polygon points="20,0 40,0 30,20" fill="white" />
+      <polygon points="40,0 60,0 60,20" fill="white" />
+      <polygon points="0,20 20,30 0,40" fill="white" />
       <polygon points="30,20 40,30 30,40 20,30" fill="white" />
-      <polygon points="60,20 60,40 40,30"  fill="white" />
-      <polygon points="0,40 0,60 20,60"    fill="white" />
-      <polygon points="20,60 40,60 30,40"  fill="white" />
-      <polygon points="40,60 60,60 60,40"  fill="white" />
+      <polygon points="60,20 60,40 40,30" fill="white" />
+      <polygon points="0,40 0,60 20,60" fill="white" />
+      <polygon points="20,60 40,60 30,40" fill="white" />
+      <polygon points="40,60 60,60 60,40" fill="white" />
     </svg>
   );
 }
@@ -106,7 +106,7 @@ export function ProductsFinalSection() {
               {/* Electronics / circuit board image */}
               <div className="overflow-hidden mt-6" style={{ borderRadius: 0 }}>
                 <img
-                  src="/products-electronics.png"
+                  src="/avac-horizons/products-electronics.png"
                   alt="Electronics circuit board with sensors and transducers"
                   className="w-full object-cover object-center"
                   style={{ maxHeight: 260 }}
@@ -127,7 +127,7 @@ export function ProductsFinalSection() {
               {/* Wind turbines / energy image */}
               <div className="overflow-hidden mt-6" style={{ borderRadius: 0 }}>
                 <img
-                  src="/products-wind-energy.png"
+                  src="/avac-horizons/products-wind-energy.png"
                   alt="Wind turbines and solar panels in a desert energy park"
                   className="w-full object-cover object-center"
                   style={{ maxHeight: 260 }}
@@ -177,7 +177,7 @@ export function ProductsFinalSection() {
             {/* PPE worker image — bottom of right column */}
             <div className="overflow-hidden mt-2" style={{ borderRadius: 0 }}>
               <img
-                src="/products-ppe-worker.png"
+                src="/avac-horizons/products-ppe-worker.png"
                 alt="Safety worker in full PPE — goggles, mask and gloves inspecting a component"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 320 }}
