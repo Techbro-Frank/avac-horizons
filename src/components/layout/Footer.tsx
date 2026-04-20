@@ -10,6 +10,7 @@ const quickLinks = [
   { label: "Products", href: "/products" },
   { label: "Quality & Compliance", href: "/quality-compliance" },
   { label: "OEMs", href: "/oems" },
+  { label: "Our Projects", href: "/projects" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -49,7 +50,7 @@ export function Footer() {
             className="inline-flex items-center gap-2 bg-accent-500 hover:bg-accent-600 text-white text-sm font-semibold px-6 py-3 rounded-md transition-colors duration-200 shrink-0"
             id="footer-cta"
           >
-            Get a Quote <ArrowRight className="w-4 h-4" />
+            Get in Touch <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </div>

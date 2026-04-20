@@ -51,6 +51,7 @@ const navLinks = [
   { label: "Products", href: "/products", dropdown: productsItems },
   { label: "Quality & Compliance", href: "/quality-compliance" },
   { label: "OEMs", href: "/oems" },
+  { label: "Our Projects", href: "/projects" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -150,8 +151,8 @@ export function Navbar() {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
           isScrolled
-            ? "bg-navy-800/98 backdrop-blur-md shadow-[0_4px_24px_rgba(0,0,0,0.25)]"
-            : "bg-navy-800"
+            ? "bg-[#0B1F2A] shadow-[0_4px_24px_rgba(0,0,0,0.35)]"
+            : "bg-[#0B1F2A]"
         )}
       >
         <nav
@@ -240,7 +241,7 @@ export function Navbar() {
           <div className="hidden xl:flex items-center">
             <Button variant="accent" size="sm" asChild>
               <Link to="/contact" id="nav-cta">
-                Get a Quote <ArrowRight className="w-3.5 h-3.5" />
+                Get in Touch <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </Button>
           </div>
@@ -392,7 +393,7 @@ export function Navbar() {
           <div className="px-4 pb-8 pt-4 border-t border-white/10 shrink-0">
             <Button variant="accent" className="w-full" asChild>
               <Link to="/contact" onClick={() => setIsMobileOpen(false)} id="mobile-cta">
-                Get a Quote <ArrowRight className="w-4 h-4" />
+                Get in Touch <ArrowRight className="w-4 h-4" />
               </Link>
             </Button>
           </div>
