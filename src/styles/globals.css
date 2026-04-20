@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =====================
+   CSS CUSTOM PROPERTIES
+   ===================== */
+@layer base {
+  :root {
+    /* shadcn/ui CSS variable tokens */
+    --background: 0 0% 100%;
+    --foreground: 203 58% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 203 58% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 203 58% 10%;
+
+    --primary: 203 58% 10%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 203 58% 10%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 5 83% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 203 58% 10%;
+
+    --radius: 0.5rem;
+  }
+}
+
+/* =====================
+   BASE RESET & DEFAULTS
+   ===================== */
+@layer base {
+  * {
+    @apply border-border;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* Typography defaults */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+    line-height: 1.2;
+  }
+
+  a {
+    @apply transition-colors duration-200 ease-in-out;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Focus ring */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent-500 ring-offset-2;
+  }
+}
+
+/* =====================
+   REUSABLE UTILITY CLASSES
+   ===================== */
+@layer components {
+
+  /* --- Containers --- */
+  .section-container {
+    @apply container mx-auto px-5 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  /* --- Section Spacing --- */
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+
+  .section-padding-sm {
+    @apply py-10 sm:py-14 lg:py-20;
+  }
+
+  /* --- Headings --- */
+  .heading-display {
+    @apply font-display text-display-lg lg:text-display-xl font-bold text-navy-800 leading-tight;
+  }
+
+  .heading-section {
+    @apply font-display text-display-md lg:text-display-lg font-bold text-navy-800;
+  }
+
+  .heading-card {
+    @apply font-display text-display-xs md:text-display-sm font-semibold text-navy-800;
+  }
+
+  .text-lead {
+    @apply text-lg md:text-xl text-brand-dark-gray font-normal leading-relaxed;
+  }
+
+  .text-body {
+    @apply text-base text-brand-dark-gray leading-relaxed;
+  }
+
+  /* --- Section Label / Eyebrow --- */
+  .label-eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-accent-500;
+  }
+
+  .label-eyebrow::before {
+    content: '';
+    @apply block w-6 h-0.5 bg-accent-500;
+  }
+
+  /* --- Buttons --- */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2
+           bg-accent-500 text-white font-semibold text-sm
+           px-6 py-3 rounded-md
+           transition-all duration-200 ease-in-out
+           hover:bg-accent-600 hover:shadow-accent-glow
+           active:scale-[0.98]
+           focus-visible:ring-2 focus-visible:ring-accent-400;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2
+           bg-navy-800 text-white font-semibold text-sm
+           px-6 py-3 rounded-md
+           transition-all duration-200 ease-in-out
+           hover:bg-navy-700
+           active:scale-[0.98];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2
+           border-2 border-navy-800 text-navy-800 font-semibold text-sm
+           px-6 py-3 rounded-md bg-transparent
+           transition-all duration-200 ease-in-out
+           hover:bg-navy-800 hover:text-white
+           active:scale-[0.98];
+  }
+
+  .btn-outline-accent {
+    @apply inline-flex items-center justify-center gap-2
+           border-2 border-accent-500 text-accent-500 font-semibold text-sm
+           px-6 py-3 rounded-md bg-transparent
+           transition-all duration-200 ease-in-out
+           hover:bg-accent-500 hover:text-white
+           active:scale-[0.98];
+  }
+
+  /* --- Cards --- */
+  .card-base {
+    @apply bg-white rounded-xl shadow-soft border border-brand-mid-gray
+           transition-all duration-300 ease-in-out;
+  }
+
+  .card-hover {
+    @apply card-base hover:shadow-soft-lg hover:-translate-y-1;
+  }
+
+  /* --- Divider --- */
+  .divider-accent {
+    @apply h-1 w-12 bg-accent-500 rounded-full;
+  }
+
+  /* --- Grid Layouts --- */
+  .grid-auto-fill-sm {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+  }
+
+  .grid-auto-fill-md {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8;
+  }
+
+  .grid-two-col {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-12 items-center;
+  }
+
+  /* --- Overlays & Backgrounds --- */
+  .bg-navy-gradient {
+    background: linear-gradient(135deg, #0B1F2A 0%, #1A4460 100%);
+  }
+
+  .bg-light-section {
+    @apply bg-brand-light-gray;
+  }
+
+  /* --- Link --- */
+  .link-accent {
+    @apply text-accent-500 font-medium hover:text-accent-600 underline-offset-2 hover:underline transition-colors duration-200;
+  }
+}
