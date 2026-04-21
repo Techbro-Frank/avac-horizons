@@ -235,7 +235,7 @@ export function StrengthsClientsSection() {
             style={{ width: 280, height: 280 }}
           >
             <img
-              src="/avac-horizons/teamwork-hands.png"
+              src="/teamwork-hands.png"
               alt="Teamwork and partnership — joined hands representing AVAC Horizons team"
               className="w-full h-full object-cover object-center"
             />

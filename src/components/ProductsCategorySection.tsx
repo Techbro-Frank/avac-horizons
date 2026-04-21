@@ -97,7 +97,7 @@ export function ProductsCategorySection() {
             {/* 2. Forklift image below text */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/avac-horizons/products-forklift.png"
+                src="/products-forklift.png"
                 alt="Yellow Hyster forklift operating inside industrial warehouse"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 280 }}
@@ -110,7 +110,7 @@ export function ProductsCategorySection() {
             {/* 1. Chemical worker image on top */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/avac-horizons/products-chemical-worker.png"
+                src="/products-chemical-worker.png"
                 alt="Industrial worker in full PPE handling chemical containers in warehouse"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 280 }}

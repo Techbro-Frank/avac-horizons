@@ -140,7 +140,7 @@ function MissionVision() {
       {/* Background image — grayscale + dark overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/avac-horizons/about-industrial-bg.png"
+          src="/about-industrial-bg.png"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover object-center"
@@ -176,7 +176,7 @@ function MissionVision() {
             style={{ width: "27%", minHeight: 420 }}
           >
             <img
-              src="/avac-horizons/about-dart-target.png"
+              src="/about-dart-target.png"
               alt="Dart hitting bullseye — precision and mission focus"
               className="w-full h-full object-cover object-center"
             />

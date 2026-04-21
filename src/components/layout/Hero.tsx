@@ -36,7 +36,7 @@ export function Hero() {
       {/* Photo — full bleed, fades left on desktop */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/avac-horizons/hero-industrial.png"
+          src={`${import.meta.env.BASE_URL}hero-industrial.png`}
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover object-center transition-transform duration-[12000ms] ease-out"
@@ -152,14 +152,14 @@ export function Hero() {
                   <span className="text-accent-500">Procurement</span>
                 </span>
                 <br />
-                <span className="text-white/90">for Modern</span>{" "}
+                <span className="text-white/90">for Global</span>{" "}
                 <span
                   className="relative inline-block"
                   style={{
                     WebkitTextStroke: "1px rgba(255,255,255,0.15)",
                   }}
                 >
-                  Industry
+                  Industries
                 </span>
               </h1>
             </div>

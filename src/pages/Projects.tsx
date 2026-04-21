@@ -154,7 +154,6 @@ const stats = [
   { value: "3+", label: "Landmark Projects" },
   { value: "3", label: "Countries Served" },
   { value: "100%", label: "On-Time Delivery" },
-  { value: "Oil & Gas", label: "Sector Focus" },
 ];
 
 /* ════════════════════════════════════════
@@ -175,7 +174,7 @@ export function ProjectsPage() {
         {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="/avac-horizons/projects-hero.png"
+            src="/projects-hero.png"
             alt="Industrial project site at dusk"
             className="w-full h-full object-cover object-center"
           />
@@ -222,7 +221,7 @@ export function ProjectsPage() {
       {/* ════════ STATS STRIP ════════ */}
       <div style={{ background: "#E1261C" }}>
         <div className="section-container py-5">
-          <dl className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-0 divide-y lg:divide-y-0 lg:divide-x divide-white/20">
+          <dl className="grid grid-cols-3 gap-0 divide-x divide-white/20">
             {stats.map(({ value, label }) => (
               <div key={label} className="flex flex-col items-center py-3 lg:py-0 text-center">
                 <dt className="font-display font-black text-white" style={{ fontSize: "clamp(1.4rem, 3vw, 2rem)" }}>

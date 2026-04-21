@@ -71,7 +71,7 @@ export function ConstructionLeasingSection() {
       {/* ── Full-width background image ── */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/avac-horizons/svc-construction-leasing.png"
+          src="/svc-construction-leasing.png"
           alt="Heavy-duty industrial mobile equipment on truck trailers"
           className="w-full h-full object-cover object-center"
           style={{

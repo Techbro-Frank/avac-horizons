@@ -64,7 +64,7 @@ function OEMHero() {
       aria-hidden="true"
     >
       <img
-        src="/avac-horizons/oem-handshake.png"
+        src="/oem-handshake.png"
         alt="Business partners shaking hands — AVAC OEM partnerships"
         className="w-full h-full object-cover object-center"
         style={{

@@ -106,7 +106,7 @@ export function ProductsFinalSection() {
               {/* Electronics / circuit board image */}
               <div className="overflow-hidden mt-6" style={{ borderRadius: 0 }}>
                 <img
-                  src="/avac-horizons/products-electronics.png"
+                  src="/products-electronics.png"
                   alt="Electronics circuit board with sensors and transducers"
                   className="w-full object-cover object-center"
                   style={{ maxHeight: 260 }}
@@ -127,7 +127,7 @@ export function ProductsFinalSection() {
               {/* Wind turbines / energy image */}
               <div className="overflow-hidden mt-6" style={{ borderRadius: 0 }}>
                 <img
-                  src="/avac-horizons/products-wind-energy.png"
+                  src="/products-wind-energy.png"
                   alt="Wind turbines and solar panels in a desert energy park"
                   className="w-full object-cover object-center"
                   style={{ maxHeight: 260 }}
@@ -177,7 +177,7 @@ export function ProductsFinalSection() {
             {/* PPE worker image — bottom of right column */}
             <div className="overflow-hidden mt-2" style={{ borderRadius: 0 }}>
               <img
-                src="/avac-horizons/products-ppe-worker.png"
+                src="/products-ppe-worker.png"
                 alt="Safety worker in full PPE — goggles, mask and gloves inspecting a component"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 320 }}

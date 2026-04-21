@@ -35,7 +35,7 @@ export function ServicesPage() {
           "Industrial safety, security systems, and PPE",
           "Industrial lubricants, process chemicals, and water treatment chemicals for industrial and energy facilities",
         ]}
-        imageSrc="/avac-horizons/svc-industrial-equipment.png"
+        imageSrc="/svc-industrial-equipment.png"
         imageAlt="Shipping containers and harbour crane at an industrial port"
         imagePosition="right"
       />

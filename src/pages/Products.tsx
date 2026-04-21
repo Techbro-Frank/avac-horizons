@@ -83,7 +83,7 @@ export function ProductsPage() {
         {/* RIGHT — Port / crane image */}
         <div className="overflow-hidden hidden md:block">
           <img
-            src="/avac-horizons/products-port-hero.png"
+            src="/products-port-hero.png"
             alt="Industrial seaport with cranes and cargo containers"
             className="w-full h-full object-cover object-center"
           />
@@ -110,7 +110,7 @@ export function ProductsPage() {
             {/* Supporting image — global supply chain / industrial warehouse */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/avac-horizons/products-supply-chain.png"
+                src="/products-supply-chain.png"
                 alt="Industrial warehouse team reviewing procurement inventory and supply chain operations"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 280 }}
@@ -164,7 +164,7 @@ export function ProductsPage() {
             {/* Machinery image below bullets */}
             <div className="overflow-hidden" style={{ borderRadius: 0 }}>
               <img
-                src="/avac-horizons/products-machinery.png"
+                src="/products-machinery.png"
                 alt="Complex industrial machinery — piping, valves and pressure vessels"
                 className="w-full object-cover object-center"
                 style={{ maxHeight: 260 }}

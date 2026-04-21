@@ -118,7 +118,7 @@ export function QualityComplianceSection() {
           className="relative overflow-hidden min-h-[320px] lg:min-h-0 group"
         >
           <img
-            src="/avac-horizons/quality-main-lab.png"
+            src="/quality-main-lab.png"
             alt="Quality control technician with blue gloves operating precision testing equipment"
             className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
             style={{ minHeight: 320 }}
@@ -145,7 +145,7 @@ export function QualityComplianceSection() {
         }}
       >
         <img
-          src="/avac-horizons/quality-floating-lab.png"
+          src="/quality-floating-lab.png"
           alt="Lab technician operating automated quality analyzer"
           className="w-full h-full object-cover object-center transition-transform duration-300 hover:-translate-y-1"
           style={{ display: "block" }}

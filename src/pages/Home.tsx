@@ -90,7 +90,7 @@ export function HomePage() {
                 id="services-section-heading"
                 className="heading-section max-w-xl"
               >
-                Services Built for Modern Industry
+                Services Built for Global Industries
               </h2>
             </div>
             <Button variant="outline" size="default" asChild className="self-start lg:self-auto shrink-0">
